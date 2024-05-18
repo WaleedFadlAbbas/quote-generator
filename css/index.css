@@ -1,0 +1,53 @@
+:root {
+    --mainfont: "Montserrat", sans-serif;
+}
+
+
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(peaceful-view-sunset-light.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+    h1 {
+        font-family: var(--mainfont);
+        font-weight: 900;
+        color: rgba(238, 255, 0, 0.733);
+        letter-spacing: 1.2pc;
+    }
+
+    p {
+        font-family: var(--mainfont);
+        color: rgba(238, 255, 0, 0.733);
+    }
+
+    span {
+        right: 1%;
+        bottom: 1%;
+
+        font-family: var(--mainfont);
+
+    }
+
+    h3 {
+
+        font-family: var(--mainfont);
+    }
+
+    .row div {
+        background-color: transparent;
+        border: solid;
+        border-color: black;
+        color: rgba(238, 255, 0, 0.733);
+
+        &:hover {
+            background-color: black;
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+
+        }
+    }
+}
